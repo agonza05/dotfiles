@@ -1,0 +1,30 @@
+# IDEs
+.idea
+.vscode
+.zed
+*.code-workspace
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+
+# Python
+__pycache__
+.venv
+cache
+
+# Nodejs
+node_modules
+package-lock.json
+build
+
+# Tests
+coverage
+.coverage
+cover
+
+# Logs
+*log*.txt
+*.log

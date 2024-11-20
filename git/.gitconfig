@@ -1,0 +1,19 @@
+[alias]
+  ignored = !git ls-files -v | grep "^[[:lower:]]"
+[core]
+  excludesfile = ~/.gitignore
+[color]
+  ui = true
+[diff]
+  compactionHeuristic = true
+  noprefix = true
+[fetch]
+  prune = true
+[init]
+  defaultBranch = main
+[pull]
+  ff = only
+[safe]
+  directory = *
+[user]
+  name = Alberto Gonzalez
