@@ -1,5 +1,6 @@
 [alias]
   ignored = !git ls-files -v | grep "^[[:lower:]]"
+  acp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 [core]
   excludesfile = ~/.gitignore
 [color]
