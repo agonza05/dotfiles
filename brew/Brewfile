@@ -1,0 +1,5 @@
+brew "bash"
+brew "bash-completion"
+brew "ca-certificates"
+brew "go-task"
+brew "jq"

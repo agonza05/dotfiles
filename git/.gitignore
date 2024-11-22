@@ -10,6 +10,10 @@
 # Secrets
 .env
 
+# Common lock
+*.lock.json
+*.lock
+
 # Python
 __pycache__
 .venv
@@ -17,7 +21,6 @@ cache
 
 # Nodejs
 node_modules
-package-lock.json
 build
 
 # Tests
