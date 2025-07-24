@@ -18,3 +18,7 @@
   directory = *
 [user]
   name = Alberto Gonzalez
+[includeIf "gitdir:~/workspace/code/aai/"]
+    path = ~/.gitconfig.work
+[includeIf "gitdir:~/workspace/code/personal/"]
+    path = ~/.gitconfig.personal

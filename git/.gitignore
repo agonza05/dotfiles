@@ -9,6 +9,7 @@
 
 # Secrets
 .env
+.envrc
 
 # Common lock
 *.lock.json
@@ -31,3 +32,10 @@ cover
 # Logs
 *log*.txt
 *.log
+
+# Terraform
+.terraform
+*.lock.hcl
+
+# CUE
+*.local.cue
