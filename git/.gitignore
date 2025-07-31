@@ -16,9 +16,14 @@
 *.lock
 
 # Python
-__pycache__
 .venv
-cache
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+uv.lock
 
 # Nodejs
 node_modules

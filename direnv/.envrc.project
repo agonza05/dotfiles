@@ -1,0 +1,4 @@
+# Place this .envrc file in the project folder
+
+dotenv_if_exists
+source_up_if_exists

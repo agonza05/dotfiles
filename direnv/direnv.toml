@@ -1,0 +1,7 @@
+# ~/.config/direnv/direnv.toml
+
+[global]
+load_dotenv = true
+
+[whitelist]
+prefix = [ "~/workspace/code" ]

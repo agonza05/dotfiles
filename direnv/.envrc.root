@@ -1,0 +1,11 @@
+# Place this .envrc file in the root workspace folder
+
+# Inject 1password secrets into environment
+use_sourceop() {
+  source <(printenv | grep "op://" | op inject)
+}
+
+# Verify that 1password-cli is installed
+if has op; then
+  use sourceop
+fi
